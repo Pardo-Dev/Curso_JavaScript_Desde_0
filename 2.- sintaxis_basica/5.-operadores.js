@@ -12,7 +12,7 @@ if(num1 && num2 == 2)
         console.log("Ninguno es igual")
     }
 
-if (num1 | num2 == 2)
+if (num1 || num2 == 2)
     {
         console.log("Hay un numero igual")
     }
