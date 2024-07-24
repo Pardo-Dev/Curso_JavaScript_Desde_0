@@ -1,0 +1,6 @@
+DOM: Document Object Model
+
+document: Referencia a la pagina html, que contiene elementos.
+elementos: Referencia a las etiquetas de un documento html.
+Texto: Contenido dentro de los elementos.
+Atributo: Clases que contienen los elementos.
