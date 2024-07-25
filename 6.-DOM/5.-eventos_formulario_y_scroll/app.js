@@ -25,3 +25,13 @@ window.addEventListener('scroll', () => {
     }
 })
 
+// Como seleccionar un elemento hijo sin que se seleccione el elemento padre
+const subtitle = document.querySelector('.subtitle');
+subtitle.addEventListener('click', e => {
+    e.stopPropagation() // Para no seleccionar a los elementos padres
+    console.log('Hi desde el subtitulo')
+})
+
+// Tambien hay otra manera usando la delegacion verificando las clases uno por uno
+// Haciendo validadciones
+// e.target.classList.contains('nombreClase') 
